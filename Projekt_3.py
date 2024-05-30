@@ -14,7 +14,7 @@ soup1 = bs(seznam_obci.text, "html.parser")
 
 print("Ahoj. Vítej v tomto programu, který ti stáhne data ohledně voleb z roku 2017.")
 print("Prvotním zdrojem je tato stránka: ", url_hlavni)
-print("Program stáhne data z některého z těchto okresů, který byl vybrán")
+print("Program stáhne data z některého z okresů, který byl vybrán")
 print("(seznam okresů a jejich přesné názvy viz soubor readme)")
 print("Chviličku strpení. Stahuji data....")
 
