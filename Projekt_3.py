@@ -120,7 +120,8 @@ def zpracuj_vybrany_okres(nazev_okresu, nazev_souboru):
     Například, pokud budeme chtít stáhnout výsledky voleb z okresu Plzeň-město, bude příkaz vypadat takto:
     >>> zpracuj_vybrany_okres("Plzeň-město", "výsledky_voleb_Plzeň-město")
     Program stáhne data a uloží je do souboru podle zadaného názvu. 
-    Pokud nebudou zadány oba argumenty nebo pokud nebude zadán správný název okresu, tak program napíše chybu "Špatné zadání" a ukončí se. 
+    Nebo lze použít otevření pomocí argumentů a v příkazovém řádku napsat Projekt_3.py Plzeň-město Plzeň-město_data a do souboru Plzeň-město_data.csv budou uložena data.
+    Pokud nebudou zadány dva argumenty, ale víc nebo míň, tak program nahlásí chybu, že byl zadán špatný počet argumentů. Pokud nebude zadán správný název okresu, tak program napíše chybu "Špatné zadání" a ukončí se. 
     """
     try:
         nazvy_okresu = []
