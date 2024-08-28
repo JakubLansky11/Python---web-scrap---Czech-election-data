@@ -1,4 +1,5 @@
 Python project - web scrap
+
 Tento program umožňuje stažení výsledků voleb z roku 2017. 
 
 Data jsou stahována z této webové stránky (https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ). Link na stránku není potřeba zadávat ručně, je již uveden v kódu. 
