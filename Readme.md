@@ -1,6 +1,6 @@
 Python project - web scrap
 
-Tento program umožňuje stažení výsledků voleb z roku 2017. 
+Tento program umožňuje stažení výsledků voleb z roku 2017. Projekt byl vytvořen v rámci kurzu Engeto. 
 
 Data jsou stahována z této webové stránky (https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ). Link na stránku není potřeba zadávat ručně, je již uveden v kódu. 
 Program umožňuje vybrat jeden z okresů a do souboru *.csv jsou poté uloženy výsledky za každou obec v tom zvoleném okrese. 
